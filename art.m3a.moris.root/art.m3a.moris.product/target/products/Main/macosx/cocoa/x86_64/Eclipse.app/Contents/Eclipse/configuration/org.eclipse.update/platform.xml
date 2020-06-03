@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config date="1591198263050" transient="false">
+	<site updateable="true" url="platform:/base/" enabled="true" policy="USER-EXCLUDE">
+		<feature id="art.m3a.moris.main.feature" version="1.0.0.202006031530" url="features/art.m3a.moris.main.feature_1.0.0.202006031530/">
+		</feature>
+		<feature id="org.eclipse.emf.common" version="2.18.0.v20191225-1014" url="features/org.eclipse.emf.common_2.18.0.v20191225-1014/">
+		</feature>
+		<feature id="org.eclipse.emf.ecore" version="2.21.0.v20200127-1342" url="features/org.eclipse.emf.ecore_2.21.0.v20200127-1342/">
+		</feature>
+		<feature id="org.eclipse.rcp" version="4.15.0.v20200305-0155" url="features/org.eclipse.rcp_4.15.0.v20200305-0155/">
+		</feature>
+		<feature id="org.eclipse.e4.rcp" version="4.15.0.v20200304-0601" url="features/org.eclipse.e4.rcp_4.15.0.v20200304-0601/">
+		</feature>
+	</site>
+</config>
