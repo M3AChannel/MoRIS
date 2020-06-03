@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<site>
+   <feature id="art.m3a.moris.main.feature" version="0.0.0">
+      <category name="art.m3a.moris.main"/>
+   </feature>
+   <category-def name="art.m3a.moris.main" label="MoRIS">
+      <description>
+         Main Application of MoRIS
+      </description>
+   </category-def>
+</site>
