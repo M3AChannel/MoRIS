@@ -16,6 +16,8 @@
 		<module>art.m3a.moris.product</module>
 		<module>art.m3a.moris.update</module>
 		<module>art.m3a.moris.target</module>
+		<module>art.m3a.moris.bp.management</module>
+		<module>art.m3a.moris.bp.feature</module>
 	</modules>
 	<build>
 		<sourceDirectory>src</sourceDirectory>

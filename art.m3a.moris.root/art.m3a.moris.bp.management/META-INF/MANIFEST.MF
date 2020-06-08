@@ -1,8 +1,9 @@
 Manifest-Version: 1.0
 Bundle-ManifestVersion: 2
-Bundle-Name: Main
-Bundle-SymbolicName: art.m3a.moris.main;singleton:=true
+Bundle-Name: Management
+Bundle-SymbolicName: art.m3a.moris.bp.management;singleton:=true
 Bundle-Version: 1.0.0.qualifier
+Bundle-Activator: art.m3a.moris.bp.management.Activator
 Bundle-Vendor: M3A
 Require-Bundle: javax.inject,
  org.eclipse.core.runtime,
@@ -17,4 +18,5 @@ Require-Bundle: javax.inject,
  org.eclipse.ui
 Bundle-RequiredExecutionEnvironment: JavaSE-1.8
 Import-Package: javax.annotation;version="0.0.0"
-Automatic-Module-Name: art.m3a.moris.main
+
+

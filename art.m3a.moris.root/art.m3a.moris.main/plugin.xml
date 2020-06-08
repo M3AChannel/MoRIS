@@ -9,8 +9,8 @@
             application="org.eclipse.e4.ui.workbench.swt.E4Application"
             name="art.m3a.moris.main">
          <property
-               name="applicationCSS"
-               value="platform:/plugin/art.m3a.moris.main/css/default.css">
+               name="appName"
+               value="art.m3a.moris.main">
          </property>
       </product>
    </extension>

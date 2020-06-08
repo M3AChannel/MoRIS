@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<application:Application xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:application="http://www.eclipse.org/ui/2010/UIModel/application" xmlns:basic="http://www.eclipse.org/ui/2010/UIModel/application/ui/basic" xmlns:menu="http://www.eclipse.org/ui/2010/UIModel/application/ui/menu" xmi:id="_6wlLcMgZEeSyMNYR5xypkQ" elementId="art.m3a.moris.main.application" bindingContexts="_6wlLecgZEeSyMNYR5xypkQ">
+<application:Application xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:advanced="http://www.eclipse.org/ui/2010/UIModel/application/ui/advanced" xmlns:application="http://www.eclipse.org/ui/2010/UIModel/application" xmlns:basic="http://www.eclipse.org/ui/2010/UIModel/application/ui/basic" xmlns:menu="http://www.eclipse.org/ui/2010/UIModel/application/ui/menu" xmi:id="_6wlLcMgZEeSyMNYR5xypkQ" elementId="art.m3a.moris.main.application" bindingContexts="_6wlLecgZEeSyMNYR5xypkQ">
   <children xsi:type="basic:TrimmedWindow" xmi:id="_6wlLccgZEeSyMNYR5xypkQ" elementId="art.m3a.moris.main.window.main" label="MoRIS" width="500" height="400">
-    <children xsi:type="basic:PartSashContainer" xmi:id="_6wlLksgZEeSyMNYR5xypkQ" elementId="art.m3a.moris.main.partsashcontainer.sample">
-      <children xsi:type="basic:PartStack" xmi:id="_6wlLk8gZEeSyMNYR5xypkQ" elementId="art.m3a.moris.main.partstack.sample">
-        <children xsi:type="basic:Part" xmi:id="_6wlLlMgZEeSyMNYR5xypkQ" elementId="art.m3a.moris.main.part.sample" contributionURI="bundleclass://art.m3a.moris.main/art.m3a.moris.main.parts.SamplePart" iconURI="platform:/plugin/art.m3a.moris.main/icons/home.png" label="Sample Part"/>
-      </children>
-    </children>
+    <children xsi:type="advanced:PerspectiveStack" xmi:id="_PtbbEKdNEeqOTdxxn0IlHw" elementId="art.m3a.moris.main.perspectivestack"/>
     <mainMenu xmi:id="_6wlLicgZEeSyMNYR5xypkQ" elementId="org.eclipse.ui.main.menu">
       <children xsi:type="menu:Menu" xmi:id="_6wlLisgZEeSyMNYR5xypkQ" elementId="file" label="File">
         <children xsi:type="menu:HandledMenuItem" xmi:id="_6wlLi8gZEeSyMNYR5xypkQ" elementId="art.m3a.moris.main.handleditem.file.open" label="Open" iconURI="platform:/plugin/art.m3a.moris.main/icons/open_in_app.png" command="_6wlLgMgZEeSyMNYR5xypkQ"/>
@@ -20,6 +16,11 @@
       <children xsi:type="menu:ToolBar" xmi:id="_6wlLlsgZEeSyMNYR5xypkQ" elementId="org.eclipse.ui.main.toolbar">
         <children xsi:type="menu:HandledToolItem" xmi:id="_6wlLmMgZEeSyMNYR5xypkQ" elementId="art.m3a.moris.main.handleditem.trimbar.top.save" iconURI="platform:/plugin/art.m3a.moris.main/icons/save_edit.png" command="_6wlLg8gZEeSyMNYR5xypkQ"/>
         <children xsi:type="menu:HandledToolItem" xmi:id="_6wlLl8gZEeSyMNYR5xypkQ" elementId="art.m3a.moris.main.handleditem.trimbar.top.open" iconURI="platform:/plugin/art.m3a.moris.main/icons/open_in_app.png" command="_6wlLgMgZEeSyMNYR5xypkQ"/>
+      </children>
+    </trimBars>
+    <trimBars xmi:id="_2DNfoKdMEeqOTdxxn0IlHw" elementId="art.m3a.moris.main.trimbar.left" side="Left">
+      <children xsi:type="menu:ToolBar" xmi:id="_NzTT4KdREeqOTdxxn0IlHw" elementId="art.m3a.moris.main.toolbar.perspectiveselector">
+        <children xsi:type="menu:HandledToolItem" xmi:id="_8SxxgKdSEeqOTdxxn0IlHw" elementId="art.m3a.moris.main.handledtoolitem.start" label="Start" iconURI="platform:/plugin/art.m3a.moris.main/icons/start.png"/>
       </children>
     </trimBars>
   </children>
